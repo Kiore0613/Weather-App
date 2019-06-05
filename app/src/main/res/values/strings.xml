@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Weather App</string>
+    <string name="text_grados">23°</string>
+    <string name="text_ciudad">Vancouver</string>
+    <string name="text_estatus">Nublado</string>
+    <string name="text_bienvenida">
+        Bienvenidos a mi app del clima, para poder ver el clima
+        de una ciudad seleccione la opcion de abajo
+    </string>
+    <string name="button_vancouver">CLIMA DE LA CIUDAD DE VANCOUVER</string>
+    <string name="button_montreal">CLIMA DE LA CIUDAD DE MONTREAL</string>
 </resources>
