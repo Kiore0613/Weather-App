@@ -19,14 +19,14 @@ class MainActivity : AppCompatActivity() {
         val ciudadMt = Ciudad("Montreal", 19, "Nublado")
 
         if (ciudad == "ciudad-vancouver") {
-            tv_ciudad.text = ciudadVc.nombre
-            tv_grados.text= ciudadVc.grados.toString() + "°"
-            tv_estatus.text = ciudadVc.estatus
+            tv_ciudad?.text = ciudadVc.nombre
+            tv_grados?.text= ciudadVc.grados.toString() + "°"
+            tv_estatus?.text = ciudadVc.estatus
 
         } else if (ciudad == "ciudad-montreal") {
-            tv_ciudad.text  = ciudadMt.nombre
-            tv_grados.text= ciudadMt.grados.toString() + "°"
-            tv_estatus.text = ciudadMt.estatus
+            tv_ciudad?.text  = ciudadMt.nombre
+            tv_grados?.text= ciudadMt.grados.toString() + "°"
+            tv_estatus?.text = ciudadMt.estatus
 
         } else {
             Toast.makeText(this, "No se pudo obtener la informacion", Toast.LENGTH_SHORT).show()
