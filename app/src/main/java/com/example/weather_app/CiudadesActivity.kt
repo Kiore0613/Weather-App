@@ -13,8 +13,8 @@ class CiudadesActivity : AppCompatActivity() {
         const val TAG = "com.example.weather_app.CiudadesActivity.CIUDAD"
     }
 
-    val vancouver = "ciudad-vancouver"
-    val montreal = "ciudad-montreal"
+    val vancouver = "6173331"
+    val montreal = "6077243"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
