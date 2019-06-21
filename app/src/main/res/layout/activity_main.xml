@@ -17,7 +17,7 @@
             android:layout_marginRight="100dp"
             android:layout_marginTop="100dp"
             android:textSize="72sp"
-            android:textColor="@color/colorTextGrados"
+            android:textColor="@color/colorText"
     />
 
     <TextView
@@ -31,7 +31,7 @@
             android:layout_marginTop="-100dp"
             android:textSize="30sp"
             android:layout_below="@+id/tv_estatus"
-            android:textColor="@color/colorTextCiudad"
+            android:textColor="@color/colorText"
     />
 
     <TextView
@@ -45,7 +45,7 @@
             android:layout_marginTop="100dp"
             android:textSize="24sp"
             android:layout_below="@+id/tv_grados"
-            android:textColor="@color/colorTextEstatus"
+            android:textColor="@color/colorText"
         />
 
 </RelativeLayout>
